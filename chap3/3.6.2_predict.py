@@ -44,7 +44,7 @@ accuracy_cnt = 0
 #     if p == t[i]:
 #         accuracy_cnt += 1
 
-# 결과 동일
+# batch (결과 동일)
 batch_size = 100
 for i in range(0, len(x), batch_size):
     x_batch = x[i:i+batch_size]
